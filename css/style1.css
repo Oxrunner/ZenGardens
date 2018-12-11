@@ -1,0 +1,202 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Wellfleet|Kite+One|Sanchez|Monda);
+
+*
+{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+body
+{
+	background: #d1d2d5;
+}
+
+#container {
+	margin: 0 auto;
+	width:1200px;
+}
+
+h1
+{
+	font-size: 4em;
+	margin-top: 5%;
+	font-family: 'Sanchez', serif;
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'Risque', serif;
+}
+
+h3
+{
+	font-family: 'Risque', serif;
+}
+
+#mainheading
+{
+	height:260px;
+	margin-top:1%;
+	padding: 1%;
+	border-radius: 15px;
+	text-align: center;
+	background: url(../images/Style1/tyre.png) left no-repeat, url(../images/Style1/tyre.png) right no-repeat;
+	/*Sourced from: http://www.carbibles.com/tyre_bible_pg2.html */
+}
+
+.select
+{
+	display: none;
+}
+
+#subnav1  ul {
+	margin: 0 auto;
+	margin-top: 2.4%;
+	list-style:none;
+	text-align: center;
+}
+
+#subnav1  ul a
+{
+	width:8em;
+	padding: 10px;
+	color:black;
+	text-align:center;
+	text-decoration: none;
+	margin:0.3em;
+	border-radius: 10px;
+	font-size: 0.8em;
+	font-family: 'Wellfleet', cursive;
+	border-bottom: double;
+}
+
+#subnav1 li{
+   display:block;
+   float:left;
+   list-style:none;
+   position:relative;
+   margin-bottom: 4%;
+}
+
+#subnav1 ul a:hover
+{
+	color:black;
+	border-bottom: double;
+	background: #b4b4b4;
+}
+
+
+
+#subnav2
+{
+	width:18%;
+	float:right;
+	text-align: center;
+}
+
+
+
+#subnav2  ul {
+	margin-top: 5%;
+	list-style:none;
+}
+
+#subnav2  ul a
+{
+	width:8em;
+	padding: 10px;
+	color:black;
+	text-align:center;
+	text-decoration: none;
+	background-color: #b4b4b4;
+	margin:0.3em;
+	border-radius: 10px;
+	font-size: 0.71em;
+	font-family: 'Wellfleet', cursive;
+}
+
+#subnav2 li{
+   display:block;
+   list-style:none;
+   position:relative;
+   margin-top: 5%;
+   margin-bottom: 10%;
+}
+
+#subnav2 ul a:hover
+{
+	color:white;
+}
+
+#quicksummary
+{
+	float:left;
+	width:18%;
+	background-color: #b4b4b4;
+	padding:1%;
+	border-radius: 15px;
+}
+
+#maincontent
+{
+	margin-left: 21.5%;
+	width:59%;
+	background-color: #b4b4b4;
+	margin-top: 8.3%;
+	padding:1%;
+	border-radius: 15px;
+}
+
+p
+{
+	font-family: 'Monda', cursive;
+}
+
+
+#a1
+{
+	margin-bottom: 4%;
+}
+
+#a2
+{
+	margin-bottom: 4%;
+}
+#a3
+{
+	margin-bottom: 4%;
+}
+
+#a4
+{
+	margin-bottom: 4%;
+}
+
+#a5
+{
+	margin-bottom: 4%;
+}
+
+#bulletlist
+{
+	margin-top: 2%;
+}
+
+#bulletlist ul
+{
+	margin-left: 6%;
+	margin-bottom: 2%;
+}
+
+footer
+{
+	margin-top:2%;
+	width:100%;
+	background-color: #b4b4b4;
+	text-align: center;
+	padding:1%;
+	border-radius: 15px;
+}
